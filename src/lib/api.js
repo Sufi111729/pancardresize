@@ -1,4 +1,4 @@
-const API_BASE = import.meta.env.VITE_API_BASE || 'https://pancardresizebackend.onrender.com'
+const API_BASE = import.meta.env.VITE_API_BASE || 'https://pancardresizebackend-production.up.railway.app'
 
 export async function uploadFiles(files) {
     const form = new FormData()
