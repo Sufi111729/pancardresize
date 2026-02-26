@@ -1,4 +1,4 @@
-const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:8080'
+const API_BASE = import.meta.env.VITE_API_BASE || 'https://pancardresizebackend.onrender.com'
 
 export async function uploadFiles(files) {
     const form = new FormData()
